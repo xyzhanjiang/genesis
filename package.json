@@ -1,0 +1,26 @@
+{
+  "name": "genesis",
+  "version": "0.0.1",
+  "description": "A ui dependency on riot.",
+  "main": "main.js",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.5",
+    "cssnano": "^3.9.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "postcss-cssnext": "^2.9.0"
+  },
+  "scripts": {
+    "test": "echo 1",
+    "production": "gulp"
+  },
+  "author": "",
+  "license": "MIT"
+}

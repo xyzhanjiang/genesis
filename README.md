@@ -9,14 +9,14 @@
 PS. 括号后面为样式对应文件
 
 - [x] normalize(normalize.css)
-- [ ] 排版(type.css)
+- [x] 排版(type.css)
 - [ ] 网格(grid.css)
-- [ ] 表单(form.css)
-- [ ] 按钮(button.css)
-- [ ] 顶部/底部菜单(bar.css)
-- [ ] 列表(list.css)
-- [ ] 图标(icon.css)
-- [ ] 工具类(utility.css)
+- [x] 表单(form.css)
+- [x] 按钮(button.css)
+- [x] 顶部/底部菜单(bar.css)
+- [x] 列表(list.css)
+- [x] 图标(icon.css)
+- [x] 工具类(utility.css)
 
 ## 组件
 

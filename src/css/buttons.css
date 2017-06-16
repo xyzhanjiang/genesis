@@ -1,0 +1,100 @@
+/*
+ * Buttons
+ * --------------------------------------------------
+ */
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--button-font-size);
+  font-weight: var(--font-weight);
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 6px 8px 7px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+
+  &:active,
+  &.active {
+    background-color: #ccc;
+    color: inherit;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:disabled,
+  &.disabled {
+    opacity: .6;
+  }
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: #fff;
+
+  &:active,
+  &.active {
+    color: #fff;
+    background-color: var(--primary-active-color);
+    border: 1px solid var(--primary-active-color);
+  }
+}
+
+.btn-outlined {
+  background-color: transparent;
+
+  &.btn-primary {
+    color: var(--primary-color);
+  }
+
+  &.btn-primary:active {
+    color: #fff;
+  }
+}
+
+.btn-link {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--primary-color);
+
+  &:active,
+  &.active {
+    background-color: transparent;
+    color: var(--primary-active-color);
+  }
+}
+
+.btn-block {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  width: 100%;
+}
+
+.btn .badge {
+  background-color: rgba(0,0,0,.15);
+  font-size: 12px;
+  margin: -2px -4px -2px 4px;
+}
+
+.btn-block .badge {
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+}

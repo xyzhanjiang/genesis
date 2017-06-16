@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*
+ * Variables
+ * --------------------------------------------------
+ */
+
+:root {
+
+/* Type
+ * --------------------------------------------------
+ */
+
+--font-family-default: "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-size-default: 14px;
+--font-weight: 400;
+--line-height-default: 1.5;
+--bg-default: #fff;
+--color-default: #333;
+
+
+/* Colors
+ * --------------------------------------------------
+ */
+
+/* Primary colors */
+--primary-color:        #4fc1e9;
+--primary-active-color: #3bafda;
+
+
+/* Bars
+ * --------------------------------------------------
+ */
+
+--bar-base-height: 44px;
+--bar-side-spacing: 10px;
+--padding: 10px;
+
+
+/* Buttons
+ * --------------------------------------------------
+ */
+
+--button-font-size: 12px;
+
+
+/* Transitions
+ * --------------------------------------------------
+ */
+
+--timing-fuction: cubic-bezier(.1,.5,.1,1);
+
+
+/* Borders
+ * --------------------------------------------------
+ */
+
+--border-default: 1px solid #ddd;
+--border-radius: 6px;
+
+}

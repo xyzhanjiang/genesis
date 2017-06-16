@@ -1,0 +1,31 @@
+/*
+ * Badges
+ * --------------------------------------------------
+ */
+
+.badge {
+  border-radius: 100px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  padding: 3px 9px;
+  vertical-align: baseline;
+
+  &:empty {
+    display: none;
+  }
+}
+
+.badge-default {
+  background-color: rgba(0,0,0,.15);
+  color: #333;
+}
+
+.badge-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+
+  &.badge-inverted {
+    color: var(--primary-color);
+  }
+}

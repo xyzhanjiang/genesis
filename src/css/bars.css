@@ -1,0 +1,93 @@
+
+/*
+ * Bars
+ * --------------------------------------------------
+ */
+
+.bar {
+  background-color: #fff;
+  backface-visibility: hidden;
+  border-bottom: var(--border-default);
+  height: var(--bar-base-height);
+  left: 0;
+  padding-right: var(--bar-side-spacing);
+  padding-left: var(--bar-side-spacing);
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
+
+.footer {
+  border-top: var(--border-default);
+  border-bottom: 0;
+  bottom: 0;
+}
+
+.title {
+  color: #333;
+  display: block;
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight);
+  line-height: var(--bar-base-height);
+  margin: 0 calc(-var(--bar-side-spacing));
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.bar-primary {
+  background-color: var(--primary-color);
+  border: 0;
+
+  & .title {
+    color: #fff;
+  }
+}
+
+.tab {
+  border-top: var(--border-default);
+  border-bottom: 0;
+  bottom: 0;
+  display: table;
+  height: calc(var(--bar-base-height) - 1);
+  padding: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.tab-item {
+  color: #929292;
+  display: table-cell;
+  height: calc(var(--bar-base-height) - 1);
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 1%;
+
+  &.active,
+  &:active {
+    color: var(--primary-color);
+  }
+
+  & .icon {
+    height: 24px;
+    width: 24px;
+
+    & ~ .tab-label {
+      display: block;
+      font-size: 12px;
+      line-height: 1;
+    }
+  }
+
+  & .badge {
+    background-color: #f43530;
+    color: #fff;
+    padding: 2px 6px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+  }
+}
