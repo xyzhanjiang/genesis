@@ -1,0 +1,59 @@
+/*
+ * Toggle
+ * ==============================================
+ */
+
+.toggle {
+  position: relative;
+}
+
+.toggle input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+
+.toggle input[type="checkbox"] + label {
+  display: inline-block;
+  min-height: 20px;
+  min-width: 15px;
+  padding-left: 32px;
+  position: relative;
+}
+
+.toggle input[type="checkbox"] + label::before {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  content: " ";
+  height: 20px;
+  left: 0;
+  position: absolute;
+  transition: background-color 0.3s;
+  top: 0;
+  width: 30px;
+}
+
+.toggle input[type="checkbox"] + label::after {
+  background-color: #fff;
+  border-radius: 8px;
+  content: " ";
+  height: 16px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  transition: transform 0.3s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  width: 16px;
+}
+
+.toggle input[type="checkbox"]:checked + label::before {
+  background-color: var(--primary-color);
+}
+
+.toggle input[type="checkbox"]:checked + label::after {
+  transform: translateX(10px);
+}
+
+.list .toggle {
+  position: absolute;
+  right: 10px;
+  top: 11px;
+}

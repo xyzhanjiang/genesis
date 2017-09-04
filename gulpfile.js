@@ -14,11 +14,12 @@ const scripts = {
     './node_modules/normalize.css/normalize.css',
     './src/css/base.css',
     './src/css/type.css',
-    './src/css/forms.css',
     './src/css/badges.css',
     './src/css/bars.css',
     './src/css/buttons.css',
+    './src/css/forms.css',
     './src/css/lists.css',
+    './src/css/toggle.css',
     './src/css/icons.css',
     './src/css/utilities.css',
   ]
