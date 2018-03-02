@@ -8,11 +8,24 @@
 <link href="css/genesis.min.css" rel="stylesheet">
 </head>
 <body>
-<header class="bar header">
+  <div style="display: flex; min-height: 100vh; flex-direction: column;">
+<header class="bar header" style="position: static;">
   <h1 class="title">标题</h1>
 </header>
 
-<nav class="bar footer">
+<div class="content padding" style="flex: 1; margin: 0; position: static;">
+  <form>
+    <input type="text" placeholder="username">
+    <select>
+      <option>Value 1</option>
+      <option>Value 2</option>
+    </select>
+    <textarea rows="5"></textarea>
+    <button class="btn btn-primary btn-block">Button block</button>
+  </form>
+</div>
+
+<nav class="bar footer" style="position: static;">
   <a class="tab-item active" href="#">
     <span class="icon icon-home"></span>
     <span class="tab-label">首页</span>
@@ -35,18 +48,6 @@
     <span class="badge badge-primary">2</span>
   </a>
 </nav>
-
-<div class="content padding">
-  <form>
-    <input type="text" placeholder="username">
-    <select>
-      <option>Value 1</option>
-      <option>Value 2</option>
-    </select>
-    <textarea rows="5"></textarea>
-    <button class="btn btn-primary btn-block">Button block</button>
-  </form>
 </div>
-
 </body>
 </html>

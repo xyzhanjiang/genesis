@@ -16,17 +16,11 @@ PS. 括号后面为样式对应文件
 - [x] 表单(forms.css)
 - [ ] 网格(grid.css)
 - [x] 列表(lists.css)
+- [ ] 加载中动画(loading.css)
+- [ ] 弹出层(modal.css)
+- [ ] 分页(pagination.css)
+- [ ] 进度条(progress.css)
 - [x] 开关(toggle.css)
 - [x] 图标(icon.css)
-- [x] 工具类(utility.css)
-
-## 组件
-
-- [ ] 弹出层(modal.css)
-- [ ] 开关按钮(toggle.css)
-- [ ] 下拉菜单
-- [ ] 时间/日期/地点选择
-- [ ] 分页(pagination.css)
-- [ ] 加载中动画(loading.css)
 - [ ] 文件上传(upload.css)
-- [ ] 进度条(progress.css)
+- [x] 工具类(utility.css)
